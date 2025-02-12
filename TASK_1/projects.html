@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .project-card {
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+
+<section class="bg-[#0a0a23] text-white relative">
+    <header class="flex justify-between items-center p-6 relative z-10">
+        <h1 class="text-2xl font-bold">Portfolio</h1>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+                <li><a href="index.html#about" class="hover:text-red-500">About</a></li>
+                <li><a href="index.html#contact" class="hover:text-red-500">Contact</a></li>
+                <li><a href="Education.html" class="hover:text-red-500">Education & Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Projects Section -->
+<section id="projects" class="py-20">
+    <div class="container mx-auto px-6 md:px-12 lg:px-24">
+        <!-- Title -->
+        <h2 class="text-4xl font-semibold text-white text-center mb-12">Projects</h2>
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Project Card 1 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 1 Title</h3>
+                    <img src="Untitled.png" alt="Project 1" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">This is a brief description of the project. It highlights its key features and the problem it solves.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 2 Title</h3>
+                    <img src="Untitled1.png" alt="Project 2" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">A short description of project 2, explaining the purpose and technology used to create it.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 3 Title</h3>
+                    <img src="Untitled2.png" alt="Project 3" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">A concise description of project 3, highlighting the tools and techniques applied to build it.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 4 Title</h3>
+                    <img src="https://miro.medium.com/v2/resize:fit:1024/1*yYwDkpypD1aW0lVk3kvWMA.png" alt="Project 4" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">Description of project 4, explaining its functionality and features in brief.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project Card 5 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 5 Title</h3>
+                    <img src="https://i.ytimg.com/vi/7jx54GcF2T0/maxresdefault.jpg" alt="Project 5" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">A brief description of project 5, discussing the challenges overcome and its unique features.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project Card 6 -->
+            <div class="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#0a0a23] mb-3">Project 6 Title</h3>
+                    <img src="https://trinity-core.s3.us-west-1.amazonaws.com/techjury/assets/64f70e583816d.png" alt="Project 6" class="w-full h-48 object-cover mb-4">
+                    <p class="text-gray-700 mb-4">This is a brief description of project 6. It explains the purpose, tools, and goals of the project.</p>
+                    <a href="#" class="text-[#3498db] hover:underline">View Details</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section>
+    <!-- Footer Section -->
+    <footer class="bg-black-400 text-white py-12">
+        <div class="container mx-auto px-6 md:px-12 lg:px-24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+                    <p class="text-sm">We are passionate about creating the best experience for tea lovers. Our mission is to provide premium quality tea from around the world.</p>
+                </div>
+                
+                <!-- Quick Links Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-sm hover:text-[#3498db]">Home</a></li>
+                        <li><a href="#about" class="text-sm hover:text-[#3498db]">About</a></li>
+                        <li><a href="#services" class="text-sm hover:text-[#3498db]">Services</a></li>
+                        <li><a href="#contact" class="text-sm hover:text-[#3498db]">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li><span class="text-sm">Phone: +123-456-7890</span></li>
+                        <li><span class="text-sm">Email: hipratikshaa13@gamil.com</span></li>
+                        <li><span class="text-sm">Location: Ahmedabad, Gujrat</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-sm hover:text-[#3498db]"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="#" class="text-sm hover:text-[#3498db]"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#" class="text-sm hover:text-[#3498db]"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="text-sm hover:text-[#3498db]"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-red-500 mt-8 pt-4 text-center text-sm">
+                <p>&copy; 2025 pratiksha-kamble-portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Add Font Awesome CDN for Social Media Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </section>
+
+</body>
+</html>

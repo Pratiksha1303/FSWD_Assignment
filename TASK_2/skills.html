@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .progress-bar {
+            transition: width 0.5s ease;
+        }
+        .bar-container {
+            height: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+        .bar {
+            height: 100%;
+            border-radius: 10px;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+        .skill-card {
+            padding: 24px;
+            height: 350px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body class="bg-[#0a0a23] text-white relative">
+
+
+<!-- Header -->
+<header class="flex justify-between items-center p-6 relative z-10">
+    <h1 class="text-2xl font-bold">Portfolio</h1>
+    <nav>
+        <ul class="flex space-x-6">
+            <li><a href="#about" class="hover:text-red-500">About</a></li>
+            <li><a href="index.html" class="hover:text-red-500">Portfolio</a></li>
+            <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+            <li><a href="#education" class="border border-white px-4 py-2 rounded-lg hover:bg-white hover:text-black">Education</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Skills Section -->
+<section id="skills" class="py-20">
+    <div class="container mx-auto px-6 md:px-12 lg:px-24">
+
+        <!-- Title -->
+        <h2 class="text-4xl font-semibold text-white text-center font-bold mb-12">Skills</h2>
+
+        <!-- Skill Groups -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Skill Card 1 (HTML & CSS) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo" class="logo">
+
+                    <h3 class="text-2xl font-semibold text-white">HTML</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Creating responsive and polished designs using modern HTML and CSS techniques.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#3498db]" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill Card 2 (JavaScript & React) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/463/small_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript logo" class="logo">
+                  
+                    <h3 class="text-2xl font-semibold text-white">JavaScript</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Building dynamic web applications using JavaScript, React, and ES6 features.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#9b59b6]" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill Card 3 (Python & Data Science) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python logo" class="logo">
+                    <h3 class="text-2xl font-semibold text-white">Python</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Analyzing data and building machine learning models using Python and key libraries.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#e74c3c]" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill Card 4 (css) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="HTML logo" class="logo">
+                    
+                    <h3 class="text-2xl font-semibold text-white">CSS</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Building scalable server-side applications using Node.js and Express.js.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#27ae60]" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill Card 5 (Git & GitHub) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxoRNdFEOyEA1DuG_oqP_6MDCMtUKlfgmreSzxH-0vceiHb34OSNlFcnt6yyeZ-DDpHW0&usqp=CAU" alt="Git logo" class="logo">
+                    <h3 class="text-2xl font-semibold text-white">Git & GitHub</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Managing code versions and collaborating on projects using Git and GitHub.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#2980b9]" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill Card 6 (SQL & Databases) -->
+            <div class="skill-card">
+                <div class="flex items-center mb-4">
+                    <img src="https://www.cdnlogo.com/logos/m/47/mysql.svg" alt="SQL logo" class="logo">
+                    <h3 class="text-2xl font-semibold text-white">SQL & Databases</h3>
+                </div>
+                <p class="text-lg text-gray-700 mb-6">Designing and managing relational databases using SQL for efficient data storage.</p>
+                <div class="bar-container">
+                    <div class="bar bg-[#f39c12]" style="width: 65%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education" class="py-20 px-6 bg-[#f7f7f7] mt-30">
+    <h2 class="text-5xl text-center font-extrabold mb-12 text-[#0a0a23]">Education</h2>
+    
+    <div class="max-w-4xl mx-auto">
+    <ul class="relative border-l-2 border-[#0a0a23] pl-6">
+    
+    <!-- B.Tech (CSE) -->
+    <li class="mb-10">
+    <div class="absolute -left-3 w-6 h-6 bg-[#0a0a23] rounded-full"></div>
+    <h3 class="text-2xl font-semibold text-[#0a0a23]">B.Tech in Computer Science & Engineering</h3>
+    <p class="text-lg text-gray-700">Silver Oak University</p>
+    <p class="text-lg text-gray-500">2021 - 2025 (Ongoing) | SPI: <span class="font-semibold text-[#0a0a23]">8.57</span></p>
+    </li>
+    
+    <!-- 12th Standard -->
+    <li class="mb-10">
+    <div class="absolute -left-3 w-6 h-6 bg-[#0a0a23] rounded-full"></div>
+    <h3 class="text-2xl font-semibold text-[#0a0a23]">12th Standard (HSC)</h3>
+    <p class="text-lg text-gray-700">Ahmedabad Public School</p>
+    <p class="text-lg text-gray-500">2020 - 2021 | Percentage: <span class="font-semibold text-[#0a0a23]">76.6%</span></p>
+    </li>
+    
+    <!-- 10th Standard -->
+    <li>
+    <div class="absolute -left-3 w-6 h-6 bg-[#0a0a23] rounded-full"></div>
+    <h3 class="text-2xl font-semibold text-[#0a0a23]">10th Standard (SCC)</h3>
+    <p class="text-lg text-gray-700">Podar International School</p>
+    <p class="text-lg text-gray-500">2018 - 2019 | Percentage: <span class="font-semibold text-[#0a0a23]">81.6%</span></p>
+    </li>
+    
+    </ul>
+    </div>
+    </section>
+
+</body>
+</html>
